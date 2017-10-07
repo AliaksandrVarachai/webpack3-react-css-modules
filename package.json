@@ -1,0 +1,22 @@
+{
+  "name": "webpack3-react-css-modules",
+  "version": "1.0.0",
+  "description": "Test of react-css-modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliaksandrVarachai/webpack3-react-css-modules.git"
+  },
+  "keywords": [
+    "react-css-modules"
+  ],
+  "author": "Alexandr Vorochai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliaksandrVarachai/webpack3-react-css-modules/issues"
+  },
+  "homepage": "https://github.com/AliaksandrVarachai/webpack3-react-css-modules#readme"
+}
