@@ -1,0 +1,10 @@
+.outer {
+    color: red;
+    font-size: 1.5em;
+}
+
+.inner {
+    color: blue;
+    font-weight: bold;
+    background: yellow;
+}

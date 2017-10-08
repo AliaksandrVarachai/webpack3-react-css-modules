@@ -4,7 +4,8 @@
   "description": "Test of react-css-modules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,22 @@
   "bugs": {
     "url": "https://github.com/AliaksandrVarachai/webpack3-react-css-modules/issues"
   },
-  "homepage": "https://github.com/AliaksandrVarachai/webpack3-react-css-modules#readme"
+  "homepage": "https://github.com/AliaksandrVarachai/webpack3-react-css-modules#readme",
+  "dependencies": {
+    "babel-plugin-react-css-modules": "^3.3.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
 }

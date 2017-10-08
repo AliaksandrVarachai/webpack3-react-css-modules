@@ -1,0 +1,9 @@
+{
+    "presets": ["env", "react"],
+    "plugins": [
+        "transform-class-properties",
+        ["react-css-modules", {
+            "generateScopedName": "[local]___[hash:base64:5]"
+        }]
+    ]
+}
